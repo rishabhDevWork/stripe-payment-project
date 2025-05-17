@@ -1,0 +1,31 @@
+# Global
+.DS_Store
+*.swp
+*.log
+.env
+.env.local
+.env.*.local
+
+# Node.js (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+frontend/package-lock.json # optional if you want to exclude lock file
+frontend/yarn.lock         # optional if using Yarn
+
+# Go (backend)
+backend/bin/
+backend/vendor/
+*.exe
+*.test
+*.out
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# OS and misc
+Thumbs.db
